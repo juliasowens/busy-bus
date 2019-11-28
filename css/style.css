@@ -1,0 +1,64 @@
+*, *:before, *:after {
+  box-sizing: content-box;
+}
+
+body {
+  background-color: #333;
+  font-family: system-ui, sans-serif;
+  font-size: 17px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 375px;
+  background-color: #ffffff;
+}
+
+h1 {
+ font-size: 1em;
+ font-weight: lighter;
+ font-stretch: normal;
+}
+
+nav {
+  background-color: #FF5B5E;
+  background-position: fixed;
+  width: 375px;
+  height: 64px;
+  text-align: center;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: 700;
+  font-stretch: expanded;
+}
+
+.arrow-left {
+  float: left;
+  padding-top: 20px;
+}
+
+.stop {
+  padding-top: 30px;
+}
+
+i {
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+.route {
+  height: 44px;
+  border-bottom: 1px solid #8E8E93;
+}
+
+.number {
+  float: left;
+  padding: 15px 10px 10px 30px;
+}
+
+.arrow {
+  display: inline-flex;
+  float: right;
+  color: #8E8E93;
+  padding: 15px 10px 10px 10px;
+}
