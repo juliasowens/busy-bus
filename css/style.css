@@ -3,21 +3,21 @@
 }
 
 body {
-  background-color: #333;
-  font-family: system-ui, sans-serif;
-  font-size: 17px;
-}
-
-.container {
-  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: auto;
   width: 375px;
   background-color: #ffffff;
 }
 
 h1 {
  font-size: 1em;
- font-weight: lighter;
- font-stretch: normal;
+ font-weight: 500;
+}
+
+h2 {
+  font-size: .7em;
+  color: #8E8E93;
 }
 
 nav {
@@ -27,38 +27,37 @@ nav {
   height: 64px;
   text-align: center;
   color: #ffffff;
-  display: inline-block;
-  font-weight: 700;
-  font-stretch: expanded;
+  padding-bottom: 20px;
 }
 
 .arrow-left {
   float: left;
-  padding-top: 20px;
+  padding: 20px 0 20px 10px;
 }
 
 .stop {
-  padding-top: 30px;
+  padding-top: 25px;
+}
+
+.route-data {
+  border-bottom: 1px solid #8E8E93;
+  display: block;
+  padding: 15px;
+  padding-left: 30px;
+}
+
+.frequency {
+  color: #8E8E93;
+  float: right;
+  display: inline-flex;
+}
+
+.destination {
+
 }
 
 i {
-  padding-left:10px;
-  padding-right: 10px;
-}
-
-.route {
-  height: 44px;
-  border-bottom: 1px solid #8E8E93;
-}
-
-.number {
-  float: left;
-  padding: 15px 10px 10px 30px;
-}
-
-.arrow {
-  display: inline-flex;
   float: right;
-  color: #8E8E93;
-  padding: 15px 10px 10px 10px;
+  display: inline-flex;
+  padding-left: 5px;
 }
