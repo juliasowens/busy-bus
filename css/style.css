@@ -16,6 +16,18 @@ h1 {
  font-weight: 300;
 }
 
+h2 {
+  font-size: .9em;
+  font-weight: 300;
+  color: #8E8E93;
+}
+
+h3 {
+  font-weight: 400;
+  color: #FF5B5E;
+  font-variant: small-caps;
+}
+
 .stop h1{
   padding-top: 25px;
   letter-spacing: .1em;
@@ -32,23 +44,6 @@ h1 {
   padding-bottom: 20px;
 }
 
-
-
-.frequency {
-  color: #8E8E93;
-  float: right;
-  display: inline-flex;
-  font-weight: 200;
-}
-
-h2 {
-  font-size: .9em;
-  font-weight: 300;
-  color: #8E8E93;
-}
-
-
-
 .arrow-left {
   float: left;
   padding-top: 25px;
@@ -62,9 +57,26 @@ h2 {
   padding-left: 30px;
 }
 
-.arrow-right {
+.out h1{
+  color: #8E8E93;
+  font-style: italic;
+}
+
+.arrives {
   float: right;
+  clear: right;
   display: inline-block;
-  padding-left: 10px;
-  padding-top: 5px;
+}
+
+.frequency {
+  float: right;
+  clear: right;
+  display: inline-flex;
+  padding-top: 10px;
+}
+
+.arrow-right {
+  display: inline-flex;
+  float: right;
+  padding-left: 5px;
 }
